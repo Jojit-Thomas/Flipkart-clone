@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: #f1f3f6;
+}
+nav {
+  width: 100%;
+  height: 56px;
+  background-color: #2874f0;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+}
+p {
+  margin: 0;
+}
+h2 .cardHeaderText{
+  font-weight: 500;
+  font-size: 22px;
+  margin: 10px;
+}
+
+.logo {
+  margin: 8px 0px 7px 380px;
+  width: 105px;
+}
+.mainLogo {
+  width: 105px;
+  display: block;
+}
+.plus {
+  color: #ffe500;
+  font-weight: 500;
+  margin-right: 2px;
+}
+.subLogo {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  font-size: 13px;
+}
+.searchBox {
+  display: flex;
+  width: 545px;
+  height: 36px;
+  background-color: white;
+  margin: 10px;
+}
+.search {
+  padding: 0 16px;
+  border-radius: 2px 0 0 2px;
+  border: 0;
+  outline: 0 none;
+  font-size: 14px;
+  height: 36px;
+  width: 100%;
+}
+.searchIconDiv {
+  width: 50px;
+  background-color: white;
+  justify-content: center;
+}
+.searchIcon {
+  padding: 8px;
+}
+.loginButton {
+  color: #2874f0;
+  font-weight: bolder;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 32px;
+  padding: 5px 40px;
+  border: 1px solid #dbdbdb;
+  margin: 12px 12px 12px 35px;
+}
+.navTextItems {
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  font-weight: 500;
+  color: white;
+  margin: 18px;
+}
+.categoriesBar {
+  background-color: white;
+  padding-top: 60px;
+}
+.categories {
+  margin: 0px 300px 0px 300px;
+  display: flex;
+}
+.categoryItems {
+  width: 80px;
+  height: 100px;
+  padding: 5px;
+  margin: 0px 35px 0px 35px;
+  justify-content: center;
+  text-align: center;
+}
+.categoryItemsLast {
+  width: 120px;
+  height: 100px;
+  padding: 5px;
+  margin: 0px 20px 0px 20px;
+  justify-content: center;
+  display: grid;
+  text-align: center;
+}
+.categoryText {
+  font-size: small;
+  padding-top: 15px;
+      text-align: center;
+
+}
+.container{
+    margin: 10px 100px 0px 100px;
+}
+.banner{
+  margin-top: 10px;
+  width: 100%;
+}
+.card{
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+  
+  background-color: white;
+}
+.cardHeader{
+     width: 99%;
+     height: 15%;
+     padding: 8px;
+     border-bottom: 1px solid rgba(0,0,0,.1);
+     display: flex;
+}
+.cardHeaderText{
+  font-weight: 500;
+  font-size: 22px;
+  margin: 10px;
+}
+.cardCategories{
+  width: 90%;
+  height: 160px;
+  padding: 40px;
+  margin: 0px 35px 0px 35px;
+  display: flex;
+
+}
+.cardCategoryItems{
+  width: 100px;
+  height: 100%;
+  text-align: center;
+  display: grid;
+  margin: 0px 100px 0px 0px;
+} 
+.DiscountText{
+  padding-top: 8px;
+  font-size: 14px;
+  color: #388e3c;
+}
+.viewAll{
+  margin-left: 80%;
+  background-color: #2874f0;
+  color: white;
+  width: 90px;
+  height: 40px;
+  border-radius: 2px;
+  border: none;
+}
+.banner2{
+  width: 100%;
+}
+.viewAll2{
+  margin-left: 78%;
+  background-color: #2874f0;
+  color: white;
+  width: 90px;
+  height: 40px;
+  border-radius: 2px;
+  border: none;
+}
+.directory{
+  padding: 0 25px;
+  color: #878787;
+  background-color: white;
+  font-size: 12px;
+}
+footer{
+  background-color: #172337;
+  width: 100%;
+  height: 400px;
+  display: grid;
+}
+.up{
+  width: 100%;
+  height: 100%;
+}
+.containerUp{
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  height: 75%;
+  display: flex;
+  border-bottom: 1px solid rgb(135, 135, 135,.2);
+}
+.containerUp .about,.help,.policy,.social {
+  width: 100%;
+  height: 80%;
+  display: grid;
+  color: white;
+  margin: 40px;
+}
+ .containerUp a{
+  color: white;
+  text-decoration: none;
+  font-weight: 50;
+  font-size: 12px;
+  line-height: .1;
+}
+.containerUp .heading{
+  color: #878787;
+  font-size: 12px;
+}
+
+.containerUp .spacing{
+  width: 8%;
+  padding: 10px 30px 10px 50px;
+}
+
+.containerUp .mailUs {
+  margin: 50px 0px 0px 200px;
+  height: 50%;
+  width: 400px;
+  color: white;
+  border-left: 1px solid rgb(255, 255, 255,0.1);
+  font-size: 12px;
+}
+.containerDown{
+  width: 100%;
+  height: 20%;
+}
+.mailUs .margin{
+  padding-left: 40px;
+  width: 300px;
+}
+
+.mailUs .mailBody p{
+  margin-top: 8px;
+}
+.address{
+  width: 200px;
+  height: 200px;
+  margin: 40px;
+}
+.address p {
+  margin-top: 8px;
+}
+.address .addressBody{
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 12px;
+}
+.containerDown{
+  display: flex;
+}
+.footerDiv{
+  width: 120px;
+  margin: 30px 0px 30px 140px;
+  height: 20px;
+  color: white;
+  font-size: 14px;
+}
+.footerCopyright{
+  width: 170px;
+  margin: 30px 0px 30px 120px;
+  height: 20px;
+  color: white;
+  font-size: 14px;
+}
+.footerImage{
+  width: 170px;
+  margin: 30px 0px 30px 120px;
+  height: 20px;
+  color: white;
+  font-size: 14px;
+}
